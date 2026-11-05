@@ -3,3 +3,7 @@
     background-image: url(https://images.pexels.com/photos/3222255/pexels-photo-3222255.jpeg);
     background-position: center 0;
 }
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+    color: #3554f0; 
+}
