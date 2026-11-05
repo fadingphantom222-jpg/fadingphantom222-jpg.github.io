@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap');
+
 .container {
     max-width: none !important;
     background-image: url(https://images.pexels.com/photos/3222255/pexels-photo-3222255.jpeg);
     background-position: center 0;
 }
+
 h1, h2, h3 {
-    font-family: 'Arial', sans-serif;
-    color: #3554f0; 
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    color: #5577ff;
+    text-shadow:
+        0 0 4px #5577ff,
+        0 0 8px #5577ff,
+        0 0 15px #3554f0;
 }
