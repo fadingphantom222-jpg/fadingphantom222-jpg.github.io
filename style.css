@@ -82,3 +82,17 @@ h2, h3 {
         0 0 25px #35c8ff,
         0 0 40px #168cff !important;
 }
+
+/* RATING GRID — CHAMPAGNE GOLD */
+.RatingsGrid .rating,
+.RatingsGrid .rating-value,
+.RatingsGrid .rank,
+.ratings-grid .rating,
+.ratings-grid .rating-value,
+.ratings-grid .rank {
+    color: #FFE3A6 !important;
+    font-weight: 700 !important;
+    text-shadow:
+        0 0 4px rgba(255, 227, 166, 0.65),
+        0 0 10px rgba(255, 190, 90, 0.4) !important;
+}
