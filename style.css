@@ -83,16 +83,19 @@ h2, h3 {
         0 0 40px #168cff !important;
 }
 
-/* RATING GRID — CHAMPAGNE GOLD */
-.RatingsGrid .rating,
-.RatingsGrid .rating-value,
-.RatingsGrid .rank,
-.ratings-grid .rating,
-.ratings-grid .rating-value,
-.ratings-grid .rank {
-    color: #FFE3A6 !important;
-    font-weight: 700 !important;
+
+/* RATINGS — BRIGHT ELECTRIC CYAN */
+[class*="rating" i] span,
+[class*="rating" i] strong,
+[class*="rating" i] .Player-rank,
+.Player-rank {
+    color: #FFFFFF !important;
+    font-weight: 800 !important;
+
     text-shadow:
-        0 0 4px rgba(255, 227, 166, 0.65),
-        0 0 10px rgba(255, 190, 90, 0.4) !important;
+        0 0 2px #FFFFFF,
+        0 0 6px #8EF7FF,
+        0 0 12px #00DFFF,
+        0 0 22px #008CFF,
+        0 0 32px #0066FF !important;
 }
