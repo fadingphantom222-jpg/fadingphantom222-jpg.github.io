@@ -120,3 +120,25 @@ h2, h3 {
         0 0 10px rgba(0, 200, 255, 0.45),
         0 0 20px rgba(0, 120, 255, 0.25);
 }
+
+@keyframes lowerStarTwinkle {
+    0%, 100% {
+        transform: scale(0.7) rotate(10deg);
+        filter: brightness(0.8);
+    }
+
+    50% {
+        transform: scale(1.25) rotate(-15deg);
+        filter: brightness(1.9)
+                drop-shadow(0 0 8px #ffffff);
+    }
+}
+
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+    .avatar-container .Player-username:hover::before,
+    .avatar-container .Player-username:hover::after {
+        animation: none !important;
+        opacity: 1;
+    }
+}
