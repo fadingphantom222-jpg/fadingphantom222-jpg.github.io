@@ -8,7 +8,7 @@
 
 h1, h2, h3 {
     font-family: 'Cinzel', serif;
-    font-weight: 600;
+    font-weight: 750;
     color: #3554f0;
     text-shadow:
         0 0 5px #ffe66d,
@@ -22,9 +22,9 @@ h1 {
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 42px;
 }
 
 h3 {
-    font-size: 26px;
+    font-size: 42px;
 }
