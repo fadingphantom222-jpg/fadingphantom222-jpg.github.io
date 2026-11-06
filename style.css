@@ -1,22 +1,16 @@
-/* Google Fonts */
+/* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600;700&display=swap');
 
 
-/* BACKGROUND: one continuous image */
-html, body {
-    min-height: 100%;
-    background-color: #06152e !important;
+/* GALAXY BACKGROUND */
+.container {
+    max-width: none !important;
+
     background-image: url("https://wallpapercave.com/wp/wp10734810.jpg") !important;
     background-position: center top !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
-}
-
-/* Keep containers transparent so the image doesn't restart */
-.container {
-    max-width: none !important;
-    background: transparent !important;
 }
 
 
@@ -25,7 +19,9 @@ h1, h2, h3 {
     font-family: 'Cinzel', 'Noto Serif SC', serif;
     font-size: 32px;
     font-weight: 700;
+
     color: #3554f0;
+
     text-shadow:
         0 0 5px #ffe66d,
         0 0 10px #ffdf45,
@@ -35,16 +31,22 @@ h1, h2, h3 {
 
 
 /* PROFILE USERNAME: 雾岛残星与无人之海 */
-.Player-username,
 .avatar-container .Player-username {
     font-family: 'Noto Serif SC', serif !important;
-    font-size: 35px !important;
+
+    font-size: 24px !important;
     font-weight: 700 !important;
-    letter-spacing: 3px !important;
+    letter-spacing: 1px !important;
 
     color: #f0fcff !important;
 
-    -webkit-text-stroke: 0.4px #b8efff;
+    display: inline-block !important;
+    width: auto !important;
+    max-width: none !important;
+
+    overflow: visible !important;
+    white-space: nowrap !important;
+    text-overflow: clip !important;
 
     text-shadow:
         0 0 3px #ffffff,
