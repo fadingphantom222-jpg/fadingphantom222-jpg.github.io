@@ -30,7 +30,17 @@ h1, h2, h3 {
 }
 
 
-/* PROFILE USERNAME: 雾岛残星与无人之海 */
+/* FULL CHINESE USERNAME */
+.avatar-container {
+    overflow: visible !important;
+}
+
+.avatar-container:has(.Player-username) {
+    width: max-content !important;
+    max-width: none !important;
+    overflow: visible !important;
+}
+
 .avatar-container .Player-username {
     font-family: 'Noto Serif SC', serif !important;
 
@@ -41,7 +51,10 @@ h1, h2, h3 {
     color: #f0fcff !important;
 
     display: inline-block !important;
-    width: auto !important;
+    flex: 0 0 max-content !important;
+
+    width: max-content !important;
+    min-width: max-content !important;
     max-width: none !important;
 
     overflow: visible !important;
@@ -53,6 +66,5 @@ h1, h2, h3 {
         0 0 7px #ffffff,
         0 0 14px #8eeaff,
         0 0 25px #35c8ff,
-        0 0 40px #168cff,
-        0 0 55px #0860ff !important;
+        0 0 40px #168cff !important;
 }
