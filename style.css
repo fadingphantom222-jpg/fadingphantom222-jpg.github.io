@@ -1,14 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap');
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600;700&display=swap');
 
-.container {
-    max-width: none !important;
-    background-image: url(https://wallpapercave.com/wp/wp10734810.jpg);
-    background-position: center 0;
+
+/* BACKGROUND: one continuous image */
+html, body {
+    min-height: 100%;
+    background-color: #06152e !important;
+    background-image: url("https://wallpapercave.com/wp/wp10734810.jpg") !important;
+    background-position: center top !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
 }
 
+/* Keep containers transparent so the image doesn't restart */
+.container {
+    max-width: none !important;
+    background: transparent !important;
+}
+
+
+/* PAGE HEADINGS */
 h1, h2, h3 {
-    font-family: 'Cinzel', serif;
-    font-weight: 750;
+    font-family: 'Cinzel', 'Noto Serif SC', serif;
+    font-size: 32px;
+    font-weight: 700;
     color: #3554f0;
     text-shadow:
         0 0 5px #ffe66d,
@@ -17,14 +33,24 @@ h1, h2, h3 {
         0 0 35px #ffbf00;
 }
 
-h1 {
-    font-size: 32px;
-}
 
-h2 {
-    font-size: 32px;
-}
+/* PROFILE USERNAME: 雾岛残星与无人之海 */
+.Player-username,
+.avatar-container .Player-username {
+    font-family: 'Noto Serif SC', serif !important;
+    font-size: 35px !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px !important;
 
-h3 {
-    font-size: 32px;
+    color: #f0fcff !important;
+
+    -webkit-text-stroke: 0.4px #b8efff;
+
+    text-shadow:
+        0 0 3px #ffffff,
+        0 0 7px #ffffff,
+        0 0 14px #8eeaff,
+        0 0 25px #35c8ff,
+        0 0 40px #168cff,
+        0 0 55px #0860ff !important;
 }
