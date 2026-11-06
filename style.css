@@ -99,3 +99,24 @@ h2, h3 {
         0 0 22px #008CFF,
         0 0 32px #0066FF !important;
 }
+
+.User .toggle-chart {
+    background: rgba(10, 42, 78, 0.9) !important;
+    color: #dff8ff !important;
+
+    border: 1px solid rgba(92, 205, 255, 0.65) !important;
+    border-radius: 9px !important;
+
+    text-shadow: 0 0 7px rgba(70, 200, 255, 0.65);
+
+    box-shadow: 0 0 10px rgba(0, 150, 255, 0.2);
+
+    transition: all 0.2s ease;
+}
+
+.User .toggle-chart:hover {
+    background: rgba(20, 75, 125, 0.95) !important;
+    box-shadow:
+        0 0 10px rgba(0, 200, 255, 0.45),
+        0 0 20px rgba(0, 120, 255, 0.25);
+}
