@@ -15,7 +15,7 @@
 
 
 /* PAGE HEADINGS */
-h1, h2, h3 {
+h1 {
     font-family: 'Cinzel', 'Noto Serif SC', serif;
     font-size: 32px;
     font-weight: 700;
@@ -27,6 +27,20 @@ h1, h2, h3 {
         0 0 10px #ffdf45,
         0 0 20px #ffd700,
         0 0 35px #ffbf00;
+}
+
+/* SECONDARY SECTION TITLES: Trophies, Ratings Activity, etc. */
+h2, h3 {
+    font-family: 'Cinzel', 'Noto Serif SC', serif !important;
+    font-size: 21px !important;
+    font-weight: 600 !important;
+    letter-spacing: 1.5px !important;
+
+    color: #b9dfff !important;
+
+    text-shadow:
+        0 0 4px rgba(150, 210, 255, 0.5),
+        0 0 10px rgba(65, 145, 220, 0.35) !important;
 }
 
 
